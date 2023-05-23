@@ -1,9 +1,149 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Title</title>
-  </head>
-  <body>
-    <p>Paragraph</p>
-  </body>
+<!--- ICS2O-ASSIGNMENT 4 --->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content=" loops and calculation" />
+  <meta name="keywords" content="mths, ics2o" />
+  <meta name="author" content="Ethan Cleasby" />
+  <meta name="theme-color" content="#FFFFFF" />
+  <link rel="stylesheet" href="./css/styles.css" />
+  <!--- None blocking for Lighthouse report --->
+  <!--- https://stackoverflow.com/questions/32759272/how-to-load-css-asynchronously --->
+
+  <!-- Links to Material Design Lite -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" media="none"
+    onload="if(media!='all')media='all'" />
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  </noscript>
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-purple.min.css" media="none"
+    onload="if(media!='all')media='all'" />
+  <noscript>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-purple.min.css" />
+  </noscript>
+
+  <!-- Favicon code -->
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+
+  <!-- Title -->
+  <title>Milkshake Shack</title>
+</head>
+<body>
+  <!-- Code linking JS and reference to MDL -->
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <script src="./js/script.js"></script>
+  <!-- Header code -->
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <span class="mdl-layout-title">Milkshake Shack Options</span>
+      </div>
+    </header>
+    <main class="mdl-layout__content">
+
+      <!-- Item cost list -->
+      <div class="list">
+        <h5>
+          Item Costs:
+        </h5>
+        <h7>
+          Whip Cream: $0.80
+        </h7>
+        <br>
+        <h7>
+          Cherry: $0.30
+        </h7>
+        <br>
+        <h7>
+          Banana: $0.60
+        </h7>
+        <br>
+        <h7>
+          Chocolate Sauce: $0.60
+        </h7>
+        <br>
+        <h7>
+          Gummies: $1.50
+        </h7>
+      </div>
+
+      <!-- Multiplier cost list -->
+      <div class="list">
+        <h5>
+          Size Cost Multiplier
+        </h5>
+        <h7>
+          Regular = 1x
+        </h7>
+        <br>
+        <h7>
+          Large = 1.5x
+        </h7>
+        <br>
+        <h7>
+          Extra Large = 2x
+        </h7>
+        <br>
+        <h7>
+          .
+        </h7>
+        <br>
+        <h7>
+          .
+        </h7>
+      </div>
+      <br>
+      <br>
+
+      <!-- First selector and function to change second selector options -->
+      <form name="topping-type">
+        <select name="type" size="1" id="topping-type" onchange="toppingType()">
+          <option value="Whip-Cream">Whip Cream</option>
+          <option value="Cherry">Cherry</option>
+          <option value="Banana">Banana</option>
+        </select>
+      </form>
+
+      <!-- Second selctor -->
+      <form name="flavourType">
+        <select name="flavour" size="1" id="flavour-type">
+          <option value="vanilla">Vanilla</option>
+          <option value="chocolate">Chocolate</option>
+          <option value="strawberry">Strawberry</option>
+          <option value="blueberry">Blueberry</option>
+          <option value="peanutbutter-cups">Peanutbutter Cups</option>
+          <option value="cookie-dough">Cookie Dough</option>
+          <option value="mango">Mango</option>
+        </select>
+      </form>
+
+      <!-- Third selctor -->
+      <form name="milkshakeSize">
+        <select name="size" size="1" id="milkshake-size">
+          <option value="regular">Regular</option>
+          <option value="large">Large</option>
+          <option value="extra-large">Extra Large</option>
+        </select>
+      </form>
+
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <!-- Button with cost function -->
+      <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+        onclick="price()">
+        Cost
+      </button>
+
+      <!-- Ouput line -->
+      <div id="output"></div>
+    </main>
+  </div>
+</body>
 </html>
