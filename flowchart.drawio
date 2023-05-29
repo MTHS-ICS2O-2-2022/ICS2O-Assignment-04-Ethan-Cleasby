@@ -1,0 +1,37 @@
+<mxfile host="65bd71144e">
+    <diagram id="oWlnSs0b6O5kMpz5ePvf" name="Page-1">
+        <mxGraphModel dx="606" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#6A60A8" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="&lt;h1&gt;&lt;span style=&quot;background-color: rgb(0, 0, 0);&quot;&gt;&lt;font color=&quot;#f3f2f2&quot;&gt;Item Costs:&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="40" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;h3&gt;&lt;span style=&quot;background-color: rgb(0, 0, 0);&quot;&gt;&lt;font color=&quot;#f0efef&quot;&gt;Whip Cream: $0.80&lt;/font&gt;&lt;/span&gt;&lt;/h3&gt;&lt;h3&gt;&lt;span style=&quot;background-color: rgb(0, 0, 0);&quot;&gt;&lt;font color=&quot;#f0efef&quot;&gt;Cherry: $0.30&lt;/font&gt;&lt;/span&gt;&lt;/h3&gt;&lt;h3&gt;&lt;span style=&quot;background-color: rgb(0, 0, 0);&quot;&gt;&lt;font color=&quot;#f0efef&quot;&gt;Banana: $0.60&lt;/font&gt;&lt;/span&gt;&lt;/h3&gt;&lt;h3&gt;&lt;span style=&quot;background-color: rgb(0, 0, 0);&quot;&gt;&lt;font color=&quot;#f0efef&quot;&gt;Chocolate Sauce: $0.60&lt;/font&gt;&lt;/span&gt;&lt;/h3&gt;&lt;h3&gt;&lt;span style=&quot;background-color: rgb(0, 0, 0);&quot;&gt;&lt;font color=&quot;#f0efef&quot;&gt;Gummies $1.50&lt;/font&gt;&lt;/span&gt;&lt;/h3&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="130" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;h1&gt;&lt;span style=&quot;background-color: rgb(0, 0, 0);&quot;&gt;&lt;font color=&quot;#f2f2f2&quot;&gt;Size Multiplier&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="40" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;h3&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;background-color: rgb(0, 0, 0);&quot;&gt;Regular = 1&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/h3&gt;&lt;h3&gt;&lt;span style=&quot;background-color: rgb(0, 0, 0);&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;Large = 1.5x&lt;/font&gt;&lt;/span&gt;&lt;/h3&gt;&lt;h3&gt;&lt;span style=&quot;background-color: rgb(0, 0, 0);&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;Extra Large = 2x&lt;/font&gt;&lt;/span&gt;&lt;/h3&gt;&lt;h3&gt;&lt;span style=&quot;background-color: rgb(0, 0, 0);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/h3&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="120" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;font color=&quot;#e8e8e8&quot;&gt;Topping choice&lt;/font&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=#000000;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="240" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;font color=&quot;#ffffff&quot;&gt;Flavour choice&lt;/font&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=#000000;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="280" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;font color=&quot;#ffffff&quot;&gt;Size choice&lt;/font&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=#000000;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="320" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="COST" style="whiteSpace=wrap;html=1;labelBackgroundColor=#000000;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="380" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;h3&gt;&lt;span style=&quot;background-color: rgb(0, 0, 0);&quot;&gt;&lt;font color=&quot;#e7e4e4&quot;&gt;Price Before Tax:&lt;/font&gt;&lt;/span&gt;&lt;/h3&gt;&lt;h3&gt;&lt;span style=&quot;background-color: rgb(0, 0, 0);&quot;&gt;&lt;font color=&quot;#e7e4e4&quot;&gt;Amount paid in tax:&lt;/font&gt;&lt;/span&gt;&lt;/h3&gt;&lt;h3&gt;&lt;span style=&quot;background-color: rgb(0, 0, 0);&quot;&gt;&lt;font color=&quot;#e7e4e4&quot;&gt;Price with 13% taxrate:&lt;/font&gt;&lt;/span&gt;&lt;/h3&gt;&lt;h3&gt;&lt;span style=&quot;background-color: rgb(0, 0, 0);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/h3&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="300" width="240" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
